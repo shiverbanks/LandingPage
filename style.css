@@ -200,13 +200,16 @@ section section:first-of-type {
     }
 }
 
-#gal div:has(section:hover) section:hover{
-    zoom: 110%;
-    transform: rotate(2deg);
-}
 #gal div:has(section:hover) section {
     transform: scale(0.95);
     filter: brightness(0.2);
+    transition: 0.05s;
+}
+#gal div:has(section:hover) section:hover{
+    zoom: 110%;
+    transform: rotate(2deg);
+    filter: brightness(1);
+    transition: 0.1s;
 }
 
 #img1 {
