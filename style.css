@@ -256,7 +256,7 @@ section section:first-of-type {
 footer {
     height: 20vh;
     background-color: var(--footer-bg);
-    color: --white-bg;
+    color: var(--white-bg);
     display: grid;
     grid-template-columns: 20% 20% 1fr;
     justify-content: center;
